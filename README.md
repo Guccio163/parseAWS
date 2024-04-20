@@ -5,6 +5,9 @@ This is a recruitment task verifying an input done for Remitly.</br>
 Task is written in Typescript because:
 - I feel confident and efficent in it
 - I hope it will stand out from the rest :)
+
+However, if writing function in Go would be additionally appreciated, I can send the task in Go too.
+
 ---
 Project includes unit tests (verifyTest.test.ts) and edge cases such as inputting non-compatible policy or multible Resources. </br></br> Instruction didn't specify how to resolve a situation with multiple Resources, so I assumed that function should return <b>false</b> if any of the Statements has Resources: "*".
 </br>
