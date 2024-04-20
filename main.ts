@@ -10,6 +10,10 @@ type StatementItem = {
   Resource: string;
 };
 
+// type definitions could be richer, but for the purpose of 
+// this function we don't need anything more about it, there are
+// of course Version, Sid, Effect, Action and some optional ones
+
 export function verifyPolicy(policy: AwsIamRolePolicy) {
   if (
     policy.PolicyDocument &&
